@@ -9,6 +9,6 @@ Prints basic stats and top word frequencies for a text file.
 ```powershell
 python week1\project\src\summarize.py
 
-## Files
-- src/summarize.py - main script
-- sample/input.txt - sample input
+Files
+- src.summarize.py - main script
+-sample/input.txt - sample input

@@ -53,10 +53,17 @@
         #Don't try to memorize every single thing such as functions, syntaxes, etc
         #Know what exists and can be used. It's ok to google something if I'm unsure of it. 
 
-name = input('What is your name?')
-if len(name) == 5:
-    print('You are allowed to be here')
-if len(name) == 6:
-    print('Go Away')
-if len(name) > 6: 
-    print('Get Rick Rolled')
+#Operator Precedence
+    # 20 + 3 * 4 << It's going to do the multiplication first. 
+    # Similar to PEMDAS
+    # Order >> () , ** , */ , +-
+
+#Complex (Data Type)
+    # A third type of number along side of int and float
+    # Not often used
+# Bin() 
+    #Returns the binary interpretation of a number
+    #print(bin(5)) >>> 0b101
+        #0b tells python its a binary number. The binary number for 5 is 101.
+    # print(int('0b101', 2)) >>> Turns the Binary back to an integer. 
+

@@ -1,3 +1,5 @@
+#Dec 15, 2025
+
 # print ('Brandon T')
 # name = input('What is your name?')
 # print('Hello ' + name)
@@ -67,3 +69,53 @@
         #0b tells python its a binary number. The binary number for 5 is 101.
     # print(int('0b101', 2)) >>> Turns the Binary back to an integer. 
 
+#December 16, 2025
+
+#Variables
+    #Stores info that can be used in our program
+    #birth_month = "May" >> birth_month is the variable
+    #print(birth_month) >> May
+        #binding the month May to the variable birth_month
+
+    #Variable Rules
+        #snake_case
+        #Start with a lowercase or underscore
+        #Letters, numbers, underscores
+        #Case Sensitive
+        #Don't overwrite keywords (i.e. print, else, return)
+    #Variables can be assigned
+#constants
+    #PI = 3.14
+        #Making PI all caps like this shows other programs it should be constant and shouldn't be changed.
+# __   <<<< Two underscores is called a Dunder.
+
+#Make my code readable and understandable by other programmers
+#a,b,c = 1,2,3 <<< Allows me to assign values to multiple variables at once
+
+#Expressions vs Statements
+    #year = 2025
+    #age = 30
+    #birth_year = year - age   <<< year - age is an expression because it produces a value
+        #the whole line >>birth_year = year - age<< is a statement because its an entire line of code that performs some type of action
+
+#Augmented Assignment Operator
+    #a_value = 5 >> If printed outputs 5
+    #a_value += 2 >> If printed outputs 7 because 2 is added to 5
+    #can use += ; -= ; *= ; /= ; ** ; // ; %
+
+#Strings
+    #Can use '' or ""
+    #A piece of text. Can put anything in a string
+    #long_string = ''' ..... ''' Will allow for multiple lines of strings
+ 
+    #f_name = 'Brandon '
+    #l_name = 'Tyhurst'
+    #full_name = f_name + l_name
+    #print(full_name) >> Outputs Brandon Tyhurst
+#String concatenation
+    #Adding strings together
+    #print('Hello ' + 'Brandon') >> outputs Hello Brandon
+
+#Type Conversion
+    #100 is an int, but if we do print(str(100)) >> the output is 100 still but the type is str
+    #print(int(30.0)) >> outputs 30 because it turns the float of 30.0 into an int

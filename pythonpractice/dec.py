@@ -119,3 +119,61 @@
 #Type Conversion
     #100 is an int, but if we do print(str(100)) >> the output is 100 still but the type is str
     #print(int(30.0)) >> outputs 30 because it turns the float of 30.0 into an int
+
+#December 18,2025
+
+#Escape Sequences
+    #Weekday = 'It's Sunny' << Can't do that because the apostrophe stops the string
+        #Do this instead >> Weekday = 'It\'s Sunny'
+        #The Backslash tells python that whatever comes after it is a string. 
+    #Weekday = '\t It\'s Sunny'
+        #The \t adds a tab spacing to the string
+    #\n adds a new line. 
+#Formatted Strings
+    #name = "Brandon"
+    #print('Hi ' + name) >>> Hi Brandon
+    #Easier way to do >> print(f'Hi {name}')
+        #adding f to the beginning shows we're going to use a formatted string. Then use brackers {} for variables. 
+    #Python 2 used print('Hi {}, you are {} years old.'.format('Brandon', '30'))
+        # or print('hi {}'.format(name))
+    #print(f'')is the preferred method
+#String Indexes
+    #movie = 'My name is Inigo Montoya'
+    #         0123456789..............>>>>
+        #Each shelf corresponds to a value. M=0 1=y and so on
+        #print(movie[0]) >>> Outputs M. 
+        #print(movie[11]) >>> Outputs I
+    #Indexes always start with 0!
+    # **USE SQUARE BRACKETS [] FOR INDEXES**
+    #[start:stop]
+    #print(movie[0:5])
+        #Counts to the fifth number. 0,1,2,3,4. 
+            #Outputs >>> My na
+    #[start:stop:stepover] >>> Called String Slicing***
+        #stepover default is 1 because we are going 1 by 1
+        # if we do print(movie[0:9:2]) it outputs M nm i because it stepsover by 2
+    #print(movie[1:]) >>> Makes it to where it doesnt stop
+    #Defaults are always [Beginning:End:1]
+    #print(movie[-1]) outputs a. It starts at the end
+    #print (movie[::-1]) reversed the string. 
+#Immutability
+    #Strings in Python are immutable
+    #movie[0] = 'N' >>>Won't change the M in My because I can't change anything within the string.
+#Built-in Functions + Methods
+    #str(); int(); print() >>> These are functions
+    #len() Calculates the length of the string. 
+        #len() does not count from 0 like indexing does.
+        # movie = "My name is Inigo Montoya"
+        # print(len(movie)) = 24. len() does count spaces and punctuation!
+    #Methods are similar to functions but owned by something. 
+        #Methods usually have a . in front and then a word. >> .format is a method.
+        #quote = "to be or not to be"
+            #print(quote.upper()) >>> Capitalizes everything 
+                #TO BE OR NOT TO BE
+            #print(quote.capitalize()) >>> Just capitalizes the start of the string.
+                #To be or not to be
+            #print(quote.find('be')) >>> outputs 3 because 'be' starts at the index of 3.
+                #Finds the first occurance.
+            #print(quote.replace('be','me')) >>> to me or not to me
+                #replaces all instances of be to me. .replace(word to be replaced, word to replace it with)
+

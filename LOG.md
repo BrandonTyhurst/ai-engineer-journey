@@ -53,3 +53,76 @@
 ### Next
 - Escape Sequences, String Indexes, Immutability, and Built-In Functions + Methods
 - Base Model vs. Assistant Model, The Reversal Curse, AGI
+
+## 2025-12-18
+
+### Learned
+
+- What I learned (Python):
+
+- Escape sequences:
+
+- \t = tab
+
+- \n = new line
+
+- Formatted strings:
+
+- Python 3 f-strings: print(f"Hi {name}") (expressions go inside {})
+
+- Older style: "Hi {}".format(name)
+
+- String indexing & slicing:
+
+- Use square brackets:s[start:stop:step]
+
+- Indexes start at 0.
+
+- Slicing rule: [start:stop:step]
+
+- Reverse a string with [::-1].
+
+- Negative indexing starts from the end (e.g., s[-1] is last character).
+
+- Strings are immutable (you can’t change characters in-place).
+
+- Built-in functions vs methods:
+
+- Functions: str(), int(), print(), len()
+
+- len() returns the number of characters (counts spaces) and is not “0-based.”
+
+- Methods belong to an object and use dot syntax, e.g. s.upper()
+
+- Examples I learned: .format(), .upper(), .capitalize(), .find(), .replace(), .lower()
+
+ 
+
+- What I learned (AI/LLMs):
+
+- Base model vs assistant model:
+
+- Base model: after pre-training; not tuned to reliably follow instructions or answer in a helpful way.
+
+- Assistant model: fine-tuned (often instruction-tuned and/or RLHF) to answer questions more directly and in more detail.
+
+- “Reversal curse” idea: models trained on relationships like A = B may not reliably infer the reverse B = A (you noted there’s research on this).
+
+
+- AGI vs ASI: Artificial General Intelligence vs Artificial SuperIntelligence
+
+- AGI: human-level general intelligence.
+
+- ASI: beyond human-level intelligence.
+
+- I learned a definition attributed to a Microsoft Research paper: AGI can involve reasoning, planning, learning from experience, and achieving goals across many environments.
+
+- “Looking inside LLMs” / the stack:
+
+- Models (e.g., GPT, Claude, LLaMA)
+
+- Chat/UIs built on models (e.g., ChatGPT, Claude)
+
+- Task-specific tools built on models (e.g., GitHub Copilot, Amazon CodeWhisperer)
+
+- I learned: Copilot is built from a GPT-family base and trained/tuned for code tasks.

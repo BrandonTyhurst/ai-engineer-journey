@@ -126,3 +126,40 @@
 - Task-specific tools built on models (e.g., GitHub Copilot, Amazon CodeWhisperer)
 
 - I learned: Copilot is built from a GPT-family base and trained/tuned for code tasks.
+
+## 2025-12-19
+
+### Learned
+
+- What I learned (Python):
+
+- Booleans (bool): True and False.
+
+- What I learned (AI/LLMs):
+
+- Standard prompt: a prompt that’s only a question or instruction (no extra structure).
+
+- Prompt engineering framework (overview):
+Setup (context/role)
+Instruction (what to do)
+Output (format/constraints)
+Evaluation (how to judge success)
+
+- I haven’t learned each piece deeply yet—this is next.
+
+- System message:
+The default/initial instruction provided by the model’s creator.
+
+- Acts like a “north star” for behavior and priorities.
+
+
+### Practiced/Built
+
+
+- Practiced exercises:
+Password checker
+Type conversion exercise
+
+
+
+- Practice AI: I used prompting to have ChatGPT code a Python Tic-Tac-Toe game with an AI opponent.

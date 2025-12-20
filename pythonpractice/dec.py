@@ -201,3 +201,38 @@
 # hidden_pswd = pswd_len * '*'
 # print(f"Hello {user}, your password, {hidden_pswd}, is {pswd_len} characters long.")
 
+#Lists
+    #li = [1,2,3,4,5] >>> Lists use square brackets
+    #li2 = ['a',2,'c',4,'e']
+    #Lists are the first data structure I'm learning
+        # ** Data Structures are ways to store information **
+# target_cart = ['Funko Pops', 'Football Cards', 'Shampoo']
+# print(target_cart[1]) >>> Outputs Football Cards. 
+    #Like string slicing, the index/list starts with 0 (funko pops)
+
+#List Slicing
+'''target_cart = [
+'Funko pops',
+'Football cards',
+'Shampoo',
+'Milk'
+]'''
+#^^^ Formatting lists this way makes things simpler
+#List slicing is the same as string slicing with [start:stop:step]
+    #Strings were immutable; however, lists are not! We CAN change lists.
+#target_cart[0] = 'Laptop'
+#print(target_cart)>>> Outputs Laptop, Football cards, Shampoo, Milk
+# To copy a list use [:]
+    #new_cart = target_cart[:]
+#if we do just new_cart = target_cart, then whenever we change anything in new_cart, it'll change the target_cart as well. 
+
+#Matrix
+    #A way to describe multidimensional lists.
+'''matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+    ]'''
+#print(matrix[0][1]) >>> Will output 2. The first item is [1,2,3] and index 1 in that is 2.
+
+#List Methods

@@ -197,3 +197,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+#ChatGPT 5.2 Really nailed this first try. Super interactive and quick. 
+    #Easy and Hard Mode 
+    #Overall nicely done!

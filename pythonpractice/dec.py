@@ -177,3 +177,27 @@
             #print(quote.replace('be','me')) >>> to me or not to me
                 #replaces all instances of be to me. .replace(word to be replaced, word to replace it with)
 
+# December 19, 2025
+
+#Booleans
+    #bool
+        #True/1 or False/0 (Capital T and Capital F)
+    #name = "Brandon"
+    #will_be_successful = True
+
+#Type Conversion Exercise
+    # birth_year = input("What year were you born?")
+    # age = 2025 - int(birth_year)
+    # print(f"You are {age} years old.")
+        # Make sure that I turn birth_year into an integer to be able to subtract it from 2025.
+
+# **Make code that is easy to read and easy to understand**
+    # *Only add comments to code if something important is happening that might be a little difficult*
+
+#Password Checker Exercise
+# user = input("What is your username?")
+# pswd = input("What is your password?")
+# pswd_len = len(pswd)
+# hidden_pswd = pswd_len * '*'
+# print(f"Hello {user}, your password, {hidden_pswd}, is {pswd_len} characters long.")
+

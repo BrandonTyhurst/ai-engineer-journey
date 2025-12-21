@@ -163,3 +163,47 @@ Type conversion exercise
 
 
 - Practice AI: I used prompting to have ChatGPT code a Python Tic-Tac-Toe game with an AI opponent.
+
+## 2025-12-20
+
+### Learned
+
+- What I learned (Python):
+
+- Lists: a data structure (a way to store information).
+
+- Lists use square brackets: [].
+
+- Like string slicing, lists support indexing and slicing: my_list[start:stop:step].
+
+- Key difference from strings: strings are immutable, but lists are mutable (you can change elements).
+
+- Matrices (in code): multi-dimensional lists (lists inside lists).
+
+- Example: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+- Accessing the 9: matrix[2][2].
+
+- What I learned (AI/LLMs):
+
+- Context in prompting:
+General rule: more relevant context often → better results.
+More context → more words → more tokens → more to analyze.
+Too much context can hurt (noise, wasted tokens, pushes out important info).
+
+- Context window:
+
+Each model has a maximum token limit it can handle at once (context window = token limit).
+Models don’t have long-term memory; they rely on the text in the current context window.
+When the window limit is reached, older tokens may be dropped to make room for newer ones.
+
+- Lost in the middle:
+
+Models tend to retain the beginning and end of a prompt better than the middle (especially the beginning).
+Similar to primacy and recency effects in psychology.
+
+- My top 3 takeaways:
+
+Put the most important info at the beginning (or end) of the context window.
+Provide only the context that’s required.
+Focus on how much context is required, not how much context is allowed.

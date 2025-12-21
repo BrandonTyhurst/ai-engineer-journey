@@ -236,3 +236,20 @@
 #print(matrix[0][1]) >>> Will output 2. The first item is [1,2,3] and index 1 in that is 2.
 
 #List Methods
+    #len() can calculate the length of the list.
+    
+# li1 = ['legos', 'toys', 'rocks']
+    #Adding methods. 
+# li1.append('socks') >>> adds socks to the end of the list. 
+# print(li1) >>> Shows the list with the new item added.
+#li1.insert(2, 'funkos') >>> inserts funkos at an index of 2.
+    #.insert(index, new item/object)
+#li1.extend([100,'shampoo']) >> adds on or extends the list
+
+    #Removing Methods
+#li1.pop()>>> pop pops off whatever is at the end of the list. 
+#li1.pop(0)>> removes whatever is at the index of 0
+#li1.remove('legos') >>> Will remove the value we give it. 
+    #.pop() gets rid of the index while .remove() gets rid of the value
+#li2 = li1.pop(2) >>> print(li2) >>> will return the 2nd index of li1(rocks)
+#li1.clear() >>> Clears the whole list. 

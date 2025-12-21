@@ -253,3 +253,14 @@
     #.pop() gets rid of the index while .remove() gets rid of the value
 #li2 = li1.pop(2) >>> print(li2) >>> will return the 2nd index of li1(rocks)
 #li1.clear() >>> Clears the whole list. 
+
+
+#print(li1.index('legos')) >> Asks what index legos is in >> will output 0
+#.index(value, start, stop) >>> .index('legos', 0, 3) >>> Searches between index 0 and 3
+    #another way to find out >> print('legos' in li1) >>> True
+#print(li1.count('legos')) >>> Will output 1 because legos only occurs once in the list. 
+#li1.sort() >>> print(li1) >>> Will sort the list alphabetically.
+#print(sorted(li1)) >>> Does the same thing but it produces a new array. Makes a new copy. 
+#li2 = li1.copy() >> Copies the lists onto li2
+#li1.reverse() >>> print(li1) >> Reverses the li1 in place
+

@@ -79,6 +79,59 @@
     #print(user.popitem()) >>> Removes the last key:value pair that was inserted in the dictionary.
     #print(user.update({'greet':'Hello'})) >>> Updates the 'greet' key with a value of 'Hello'
 
-    ##TEST
+# Tuples 
+    #Similar to lists, but immutable(cannot modify)
+    #my_tuple = (1,2,3,4,5) <<<< Uses Brackets ()
+    #print(5 in my_tuple) >>> True
+    #my_tuple[1] = 'z' >>> Will throw an error because we CANNOT change anything within the tuple
+    #Less flexible than a list; however, they are more performative (faster)
 
+    #**Tuples ARE valid Keys in a dictionary** 
+        #user = {
+            #(1,2): 1,2,3,
+            #'greet': 'hello'
+        #}
+    #print(user[(1,2)]) >>> 1,2,3
 
+    #my_tuple = (1,2,3,4)
+    #new_tuple = my_tuple[1:2] >>> (2,)        >>>>>>>>>>my_tuple[1:3] >>>> (2,3)
+        #[start:stop]
+    #x,y,z, *other = (1,2,3,4,5) >>> Still works the same. x=1; y=2; z=3; other=[4,5] << In a list
+   #Tuple Methods >>> Only use count() and index()
+   # print(my_tuple.count(5)) >>> 1 >>> Counts how many times 5 occurs in the tuple
+   #print(my_tuple.index(3)) >>> 4 >>> Shows what is at an index of 3
+   # Can also use len() >>> print(len(my_tuple)) >>> 5 >>> counts how many items are in the tuple 
+
+# Sets 
+    #Unordered collections of UNIQUE options >>> Uses curly brackets {} with values inside. >>> {1,2,3,4,5}  
+    # my_set = {1,1,2,3,4,4,4,4,5}
+    # print(my_set)  >>>> {1,2,3,4,5} >>> Only prints the Unique value(1 of each)
+    #my_set.add(2)   >>>> print(my_set) >>>> Still outputs {1,2,3,4,5} since 2 is already in there
+    #my_set.add(100) >>> print(my_set) >>> {1,2,3,4,5,100}
+#my_list = [1,2,3,4,5,5,5,5]
+#my_set = set(my_list)                  <<<<<<<<<<<<<< Lines 111-113 is how to print a list with no duplicates involved.
+#print(my_set) >>> {1,2,3,4,5}
+
+    #Easier way to do this ^^^ *** is print(set(my_list)) ***
+    #Set objects does not support indexing >> print(my_set[0]) << This will throw an error
+        #To check to see if a value is in the set >> print(1 in my_set) >>> Outputs True
+    #print(len(my_set)) counts each unique value in the set >>> {1,2,3,4,4,5,5} >>> The length would be 5 because there are 5 unique values
+    #We can also convert a set into a list with print(list(my_set)) >>> Will make a list of all unique values
+
+# Set Methods
+    #.difference() ; .discard() ; .difference_update() ; .intersection() ; .isdisjoint() ; .issubset() ; .issuperset() ; .union() >>> There's a bunch more
+#Example sets for usecase of these methods
+    #my_set = {1,2,3,4,5}
+    #your_set = {4,5,6,7,8,9,10}             >>>>>>>>> Sets are vary useful when comparing 2 sets together
+
+    #print(my_set.difference(your_set)) >>>> outputs {1,2,3} Will show the difference between my_set and your_set. 
+        #Both sets contain {4,5} so it won't print those
+    #my_set.discard(5)  >>>> print(my_set)  >>> outputs {1,2,3,4} because it discarded(removed) 5 from the set
+    #my_set.difference_update(your_set)  >>> print(my_set) >>> outputs {1,2,3} because it updates it by removing the same values between the sets
+    #print(my_set.intersection(your_set))  >>> outputs {4,5} because it outputs the common values between the sets
+            #print(my_set & your_set)  <<< Does the exact same thing as .intersection()
+    #print(my_set.isdisjoint(your_set)) >>> Outputs False because they have values that are the same. If they had no similar values, it would print True
+    #print(my_set.issubset(your_set)) >>> will print False because the entirety of my_set is not included in your_set
+    #print(my_set.issuperset(your_set)) >>> will print False because my_set does not encompass your_set (Everything in your_set is not in my_set)
+    #print(my_set.union(your_set)) >>> outputs {1,2,3,4,5,6,7,8,9,10}  >>>> It joins the sets together removing all duplicates
+            #print(my_set | your_set)  <<< Does the exact same thing as .union()
